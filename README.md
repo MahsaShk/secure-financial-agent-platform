@@ -36,6 +36,28 @@ python -m pip install -e ".[demo]"
 streamlit run app.py
 ```
 
+## Demo
+
+Screenshots from `streamlit run app.py`. The data is synthetic.
+
+A question that needs arithmetic. The planner picks `subtract`, the
+calculator computes 120 - 100, and the answer cites the ACME 2025 report.
+
+![Question input](docs/images/demo1.png)
+
+![Answer with calculation and citation](docs/images/demo2.png)
+
+![Latest audit event for the same request](docs/images/demo3.png)
+
+A percentage question. The calculator computes 150 / 250 = 60%.
+
+![Percentage answer](docs/images/demo4_percentage.png)
+
+A prompt-injection attempt is refused with reason code
+`prompt_injection_detected`.
+
+![Refusal](docs/images/demo5_promptInjection.png)
+
 ## How it works
 
 ```text
