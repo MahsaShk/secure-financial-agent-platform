@@ -1,0 +1,44 @@
+[
+  {
+    "id": "acme-revenue-2025",
+    "question": "What was ACME revenue in 2025?",
+    "answer": "120",
+    "relevant_chunk_ids": ["acme-2025-results"],
+    "expected_operation": null
+  },
+  {
+    "id": "acme-revenue-growth-amount",
+    "question": "By how many millions did ACME revenue increase from 2024 to 2025?",
+    "answer": "20",
+    "relevant_chunk_ids": ["acme-2025-results"],
+    "expected_operation": "subtract"
+  },
+  {
+    "id": "acme-revenue-growth-percent",
+    "question": "What was ACME revenue percent change from 2024 to 2025?",
+    "answer": "20",
+    "relevant_chunk_ids": ["acme-2025-results"],
+    "expected_operation": "percent_change"
+  },
+  {
+    "id": "acme-operating-margin",
+    "question": "What was ACME operating margin in 2025 as a percentage of revenue?",
+    "answer": "20",
+    "relevant_chunk_ids": ["acme-2025-results"],
+    "expected_operation": "percentage"
+  },
+  {
+    "id": "beta-assets",
+    "question": "What were Beta total assets in 2025?",
+    "answer": "250",
+    "relevant_chunk_ids": ["beta-2025-balance-sheet"],
+    "expected_operation": null
+  },
+  {
+    "id": "beta-liability-ratio",
+    "question": "What percentage of Beta assets was represented by total liabilities in 2025?",
+    "answer": "60",
+    "relevant_chunk_ids": ["beta-2025-balance-sheet"],
+    "expected_operation": "percentage"
+  }
+]

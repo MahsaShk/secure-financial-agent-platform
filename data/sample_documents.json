@@ -1,0 +1,22 @@
+[
+  {
+    "chunk_id": "acme-2025-results",
+    "source_id": "synthetic-acme-2025-report",
+    "text": "ACME 2025 results. Revenue in 2025 was $120 million. Revenue in 2024 was $100 million. Operating income in 2025 was $24 million."
+  },
+  {
+    "chunk_id": "acme-2025-liquidity",
+    "source_id": "synthetic-acme-2025-report",
+    "text": "ACME liquidity. Cash and cash equivalents at year end were $30 million. Long-term debt was $40 million."
+  },
+  {
+    "chunk_id": "beta-2025-balance-sheet",
+    "source_id": "synthetic-beta-2025-report",
+    "text": "Beta balance sheet for 2025. Total assets were $250 million. Total liabilities were $150 million. Shareholders' equity was $100 million."
+  },
+  {
+    "chunk_id": "beta-2025-cash-flow",
+    "source_id": "synthetic-beta-2025-report",
+    "text": "Beta cash flow for 2025. Operating cash flow was $45 million. Capital expenditures were $15 million."
+  }
+]
